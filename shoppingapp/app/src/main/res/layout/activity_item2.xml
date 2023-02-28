@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laybg">
+
+    <CheckBox
+        android:id="@+id/CB"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/checkbox"
+        android:button="@null" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="30dp"
+        android:layout_toRightOf="@+id/CB"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/orange" />
+
+    <TextView
+        android:id="@+id/imformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imageview"
+        android:text="江西橘子"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/allprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_toRightOf="@+id/imageview"
+        android:text="￥100"
+        android:textColor="#FF8C00"
+        android:textSize="20sp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_toRightOf="@+id/allprice"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="80dp"
+    android:background="@drawable/llll">
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/delete"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/itmelayout"
+        android:text="1"/>
+
+    <ImageButton
+        android:id="@+id/btn_add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/add" />
+</LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

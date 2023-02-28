@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/addbg.xml" value="0.225" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/beizhu.xml" value="0.21666666666666667" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/btn_delete.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/buttonbg.xml" value="0.22592592592592592" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/buttonshape.xml" value="0.28512820512820514" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/butttonbg.xml" value="0.22592592592592592" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/change.xml" value="0.21666666666666667" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/checkbox.xml" value="0.28958333333333336" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/differentpoint.xml" value="0.16944444444444445" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/edtbg.xml" value="0.28541666666666665" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/gouwuche.xml" value="0.2824074074074074" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/itmelayout.xml" value="0.225" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/laybg.xml" value="0.16203703703703703" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/llll.xml" value="0.13072916666666667" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/minus_bg.xml" value="0.2824074074074074" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/point.xml" value="0.25555555555555554" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/pointbg.xml" value="0.28958333333333336" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/querenshouhuo.xml" value="0.28958333333333336" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/save.xml" value="0.28541666666666665" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/shootpoint.xml" value="0.25555555555555554" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/tab_menu_deal.xml" value="0.20208333333333334" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/tx_bg.xml" value="0.2824074074074074" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/drawable/yanchangshouhuo.xml" value="0.28958333333333336" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_address.xml" value="0.15463917525773196" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_airpods.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_books.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_clothe.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_clothe2.xml" value="0.25885416666666666" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_cookie.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_dingdan.xml" value="0.264" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_dish.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_fenlei.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_gouwuche.xml" value="0.17777777777777778" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_hat.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_item1.xml" value="0.2" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_item2.xml" value="0.4" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_item3.xml" value="0.2734375" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_loginsuccessful.xml" value="0.25885416666666666" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_orange.xml" value="0.264" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_order.xml" value="0.264" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_phone.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_register.xml" value="0.144" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_shoes.xml" value="0.2734375" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_sure.xml" value="0.25677083333333334" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/activity_user.xml" value="0.2" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/content_main.xml" value="0.264" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/layout/pop_categary_chose.xml" value="0.2734375" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/menu/main_menu.xml" value="0.264" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/menu/menu_main.xml" value="0.19114583333333332" />
+        <entry key="..\:/androidproject/shoppingapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18333333333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

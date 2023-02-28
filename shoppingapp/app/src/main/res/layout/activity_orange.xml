@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF8C00"
+        app:subtitleTextAppearance="@style/ToolbarSubTitleSize"
+        app:subtitleTextColor="@color/white"
+        app:title="">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品详情"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+
+<LinearLayout
+    android:id="@+id/layout_orange"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:background="@drawable/orange"
+    android:layout_below="@+id/toolbar1"
+    android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/layout_orange"
+        android:layout_marginTop="-60dp"
+        android:alpha="0.7"
+        android:background="#E6E6FA"
+        android:text="正宗江西赣南脐橙现摘新鲜甜橙子10斤大果信丰薄皮送礼精品装包邮"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout_price"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tx1"
+        android:background="#F5F5F5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx1"
+            android:layout_gravity="center_vertical"
+            android:text="价格￥"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tx_price"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="99.00"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="江西南昌店铺"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/tx_bg"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlay_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/layout_price">
+
+        <ImageButton
+            android:id="@+id/butn_minus"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/minus_bg"
+            android:src="@mipmap/minus" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/butn_minus"
+            android:background="@drawable/minus_bg"
+            android:textColor="@color/black"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/butn_add"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/minus_bg"
+            android:src="@mipmap/plus"
+            android:layout_toRightOf="@+id/number"/>
+        <Button
+            android:id="@+id/btn_shop"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/butn_add"
+            android:background="@drawable/buttonbg"
+            android:textColor="@color/white"
+            android:text="立即购买"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btn_addshopcar"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/btn_shop"
+            android:background="@drawable/gouwuche"
+            android:text="加入购物车"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/rlay_1"
+        android:text="      商品规格说明 一箱12颗"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+</RelativeLayout>

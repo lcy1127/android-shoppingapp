@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoppingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shoppingapp">
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FenleiActivity" />
+        <activity android:name=".Gouwuche" />
+        <activity android:name=".SuccessfulActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".airpods" />
+        <activity android:name=".books" />
+        <activity android:name=".clothe" />
+        <activity android:name=".cookie" />
+        <activity android:name=".dish" />
+        <activity android:name=".hat" />
+        <activity android:name=".iphone" />
+        <activity android:name=".orange" />
+        <activity android:name=".shoes" />
+        <activity android:name=".address" />
+        <activity android:name=".submit" />
+        <activity android:name=".Dingdan" />
+    </application>
+
+</manifest>

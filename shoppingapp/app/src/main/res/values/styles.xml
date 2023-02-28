@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarTitleSize" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="ToolbarSubTitleSize" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">12sp</item>
+    </style>
+<!--    &lt;!&ndash; toolbar溢出菜单图标自定义 &ndash;&gt;-->
+<!--    <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">-->
+<!--        <item name="android:src">@mipmap/</item>-->
+<!--        <item name="android:scaleType">centerInside</item>-->
+<!--    </style>-->
+
+</resources>
